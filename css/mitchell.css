@@ -8,7 +8,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  color: black;
+  color: white;
   font-family: Arial;
   text-align: center;
 }
@@ -23,10 +23,5 @@ html, body {
   height: 95%;
   margin: 0;
   padding: 0;
-  background-color: #800000;
-}
-
-#map {
-  height: 100%;
-  width: 100%;
+  background-color: #070428;
 }

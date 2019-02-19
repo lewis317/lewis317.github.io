@@ -20,7 +20,7 @@ p {
   text-align: center;
 }
 
-html, body {
+html, body, #viewDiv{
   height: 95%;
   margin: 0;
   padding: 0;

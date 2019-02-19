@@ -6,7 +6,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 	const view = new MapView({
 		container: "viewDiv",
 		map: map,
-		zoom: 5,
+		zoom: 3,
 		center: {
 			latitude: 39.828240,
 			longitude: -98.579471
@@ -16,7 +16,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 
 
 	//Mcgee Poster
-	const Mcgee = "Mitchell absolutely posterizes JaVale McGee. Too bad it won't show up on Shaqtin' a fool." + "<p><p><iframe width='560' height='315' src='https://www.youtube.com/watch?v=5IMRfLLZnBA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+	const Mcgee = "Mitchell absolutely posterizes JaVale McGee. Too bad it won't show up on Shaqtin' a fool." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/5IMRfLLZnBA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 	view.graphics.add({
 		symbol: {
 			type: "text",
@@ -40,7 +40,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 
 
 	//Christmas Gift
-	const christmas = "With the NBA finally returning to Utah on Christmas day, the country watched in awe as Mitchell slammed this lob from Crowder home." + "<p><p><iframe width='560' height='315' src='https://www.youtube.com/watch?v=Vox2NmmWDsg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+	const christmas = "With the NBA finally returning to Utah on Christmas day, the country watched in awe as Mitchell slammed this lob from Crowder home." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/Vox2NmmWDsg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 	view.graphics.add({
 		symbol: {
 			type: "text",
@@ -64,7 +64,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 
 
 	//Welcome to SLC BBB
-	const bbbslc = "The dunk heard 'round the world. With this putback, Mitchell showed the world why he would become a ROY candidate. A Ball was also involved." + "<p><p><iframe width='560' height='315' src='https://www.youtube.com/watch?v=qPFy_mCKSH0' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+	const bbbslc = "The dunk heard 'round the world. With this putback, Mitchell showed the world why he would become a ROY candidate. A Ball was also involved." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/qPFy_mCKSH0' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 	view.graphics.add({
 		symbol: {
 			type: "text",
@@ -88,7 +88,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 
 
 	//Dunkic
-	const dunkic = "With this dunk, Mitchell reminded Doncic, that he too was a rookie sensation." + "<p><p><iframe width='560' height='315' src='https://www.youtube.com/watch?v=48Ab5jLcZdU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+	const dunkic = "With this dunk, Mitchell reminded Doncic, that he too was a rookie sensation." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/48Ab5jLcZdU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 	view.graphics.add({
 		symbol: {
 			type: "text",
@@ -112,7 +112,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 
 
 	//0-8 in SLC
-	const losingstreak = "Two for the price of one. With these dunks, Mitchell helped extend the king's losing streak in SLC to eight games." + "<p><p><iframe width='560' height='315' src='https://www.youtube.com/watch?v=BLio_Bwkskw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+	const losingstreak = "Two for the price of one. With these dunks, Mitchell helped extend the king's losing streak in SLC to eight games." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/BLio_Bwkskw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 	view.graphics.add({
 		symbol: {
 			type: "text",
@@ -136,7 +136,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 
 
 	//Dunk Contest Champ
-	const champ = "The dunk contest. It was here that Mitchell truly burst onto the national stage with a a number of ferocious dunks." + "<p><p><iframe width='560' height='315' src='https://www.youtube.com/watch?v=gtprpculjrQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+	const champ = "The dunk contest. It was here that Mitchell truly burst onto the national stage with a a number of ferocious dunks." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/gtprpculjrQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 	view.graphics.add({
 		symbol: {
 			type: "text",
@@ -160,7 +160,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 
 
 	//Playoff Anouncement
-	const playoffs = "Mitchell's defining moment in a second-round series. Although the Jazz didn't win the series, this dunk helped end the season on a high note." + "<p><p><iframe width='560' height='315' src='https://www.youtube.com/watch?v=SPMj1HFDPf0' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+	const playoffs = "Mitchell's defining moment in a second-round series. Although the Jazz didn't win the series, this dunk helped end the season on a high note." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/SPMj1HFDPf0' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 	view.graphics.add({
 		symbol: {
 			type: "text",
@@ -184,7 +184,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 
 
 	//Miami Vices
-	const lob = "One example of the plethora of Ingles to Mitchell lobs that Jazz fans have enjoyed for the past year and a half." + "<p><p><iframe width='560' height='315' src='https://www.youtube.com/watch?v=6VYGruTQ0sE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+	const lob = "One example of the plethora of Ingles to Mitchell lobs that Jazz fans have enjoyed for the past year and a half." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/SPMj1HFDPf0' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 	view.graphics.add({
 		symbol: {
 			type: "text",
@@ -208,7 +208,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 
 
 	//Miles High
-	const high = "Mitchell soared miles high for this dunk against the Denver Nuggets." + "<p><p><iframe width='560' height='315' src='https://www.youtube.com/watch?v=FB1X3X9qpE4' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+	const high = "Mitchell soared miles high for this dunk against the Denver Nuggets." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/FB1X3X9qpE4' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 	view.graphics.add({
 		symbol: {
 			type: "text",
@@ -231,7 +231,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 	});
 
 	//College Days
-	const college = "A throwback to Mitchell's time at the University of Louisville, this dunk is one of his self-proclaimed favorites." + "<p><p><iframe width='560' height='315' src='https://www.youtube.com/watch?v=qRJRYeazu30' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+	const college = "A throwback to Mitchell's time at the University of Louisville, this dunk is one of his self-proclaimed favorites." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/qRJRYeazu30' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 	view.graphics.add({
 		symbol: {
 			type: "text",

@@ -184,7 +184,7 @@ require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
 
 
 	//Miami Vices
-	const lob = "One example of the plethora of Ingles to Mitchell lobs that Jazz fans have enjoyed for the past year and a half." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/SPMj1HFDPf0' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+	const lob = "One example of the plethora of Ingles to Mitchell lobs that Jazz fans have enjoyed for the past year and a half." + "<p><p><iframe width='420' height='236' src='https://www.youtube.com/embed/6VYGruTQ0sE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
 	view.graphics.add({
 		symbol: {
 			type: "text",
